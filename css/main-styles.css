@@ -1,0 +1,118 @@
+
+body {
+    position: relative;
+}
+.container {
+    text-align: center;
+}
+p {
+    font-size: 1.3em;
+}
+
+/* ul list center */
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+/* Line colors */
+.line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #015441;
+    margin: 1em 0;
+    padding: 0; 
+}
+.line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #015441;
+    margin: 1em 0;
+    padding: 0; 
+}
+/* NAVBAR BACKGROUND COLOR OVERRIDE */
+
+.navbar {
+    background-color: #015441;
+}
+
+.contact-me {
+    max-width: 38em;
+    margin: 0 auto;
+}
+
+
+/*CSS CENTERING GROUP IMAGE CODE*/
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* SECTION HEADINGS */
+
+.sectionheading, .projectheading {
+    color: #015441;
+}
+
+/* ABOUT ME DIVS */
+div.about-me-p {
+    margin-top: 20px;
+}
+
+/* ABOUT ME PARAGRAPHS */
+.about-me-p p {
+    color: #47515B;
+}
+
+/* CONTACT FORM SEND BUTTON COLOR OVERRIDE */
+.btn-success {
+    background-color: #015441;
+    border-color: #015441;
+}
+
+.btn-success:hover {
+    background-color: #015441;
+    border-color: #015441;
+}
+
+
+
+#linkedin-logo {
+    margin: 0 auto;
+    margin-right: 2em;
+}
+
+#github-logo {
+    margin: 0 auto;
+    margin-left: 2em;
+}
+
+#linkedin-link {
+    text-decoration: none;
+}
+
+#github-link {
+    text-decoration: none;
+    color: #015441;
+}
+
+#e-mail{
+    color: #47515B;
+    text-decoration: underline;
+}
+
+#e-mail:hover{
+    color: #015441;
+}
+
+/* OTHER */
+
+#jobtitle {
+    font-size: 2.5em;
+}
+
+a.footer-links {
+    color: #D7C7E3;
+}
